@@ -1,0 +1,13 @@
+﻿.env
+*.bat.bak
+backups/
+export.sh
+build_wf.py
+build_readme.py
+nodes.json
+connections.json
+wfmeta.txt
+workflow_raw.txt
+workflow_export.json
+__pycache__/
+*.pyc

@@ -1,0 +1,8 @@
+﻿version: "3"
+agent:
+    authtoken: 39bY3xvcZZ6T7gxFysk7I9oI6bz_5raVRndne3LgvEStnWwni
+
+tunnels:
+  n8n:
+    proto: http
+    addr: 5678
