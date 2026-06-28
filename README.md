@@ -1,6 +1,8 @@
 # Adidas Customer Support AI Agent
 
-> An agentic AI workflow built with **n8n** that handles real customer support conversations over **WhatsApp** - answering return policy questions, tracking orders, booking support tickets, and processing return requests autonomously.
+> Self-hosted n8n workflow that turns WhatsApp into an autonomous Adidas customer support agent using Twilio, Airtable, OpenAI, Docker, and ngrok.
+
+This agentic AI workflow handles real customer support conversations over **WhatsApp** - answering return policy questions, tracking orders, booking support tickets, and processing return requests autonomously.
 
 ---
 
@@ -195,22 +197,3 @@ CustomerSupportAgent/
  `-- Tickets.csv
 ```
 
----
-
-## About
-
-Built by **Habeeb Shaik** as part of an Agentic AI internship application.
-
-This project demonstrates:
-
-- End-to-end agentic workflow design using n8n
-- Multi-tool AI agent with real-world integrations (WhatsApp, Airtable, Twilio)
-- Autonomous customer support covering the full support lifecycle
-- Confirmation flow before processing returns (safety + accuracy)
-- Self-hosted, production-deployable architecture with Docker and ngrok
-
----
-
-## License
-
-MIT
